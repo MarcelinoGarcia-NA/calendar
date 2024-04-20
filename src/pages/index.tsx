@@ -27,6 +27,7 @@ export default function Home() {
     <main className={`flex min-h-screen w-full  flex-col ${inter.className}`}>
       <div style={{ width: '100%', minHeight: '600px' , backgroundColor: '#FFFFFF', color: 'black'}}>
         <FullCalendar
+          height={"600px"}
           plugins={[dayGridPlugin]}
           initialView="dayGridMonth"
           initialDate={today}
