@@ -24,8 +24,8 @@ export default function Home() {
     return arg.dayNumberText;
   };
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
-      <div style={{ width: '80%', height: '80%' , backgroundColor: '#FFFFFF'}}>
+    <main className={`flex flex-col ${inter.className}`}>
+      <div style={{ width: '100%', height: '100%' , backgroundColor: '#FFFFFF'}}>
         <FullCalendar
           plugins={[dayGridPlugin]}
           initialView="dayGridMonth"
